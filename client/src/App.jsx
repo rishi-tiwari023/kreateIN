@@ -13,7 +13,7 @@ import Community from './pages/Community'
 
 const App = () => {
   return (
-    <div>
+    <div className='min-h-screen'>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/ai' element={<Layout/>}>
