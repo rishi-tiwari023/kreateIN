@@ -33,7 +33,6 @@ build/
 # environment variables
 .env
 .env.local
-.env.*
 
 # logs
 npm-debug.log*
