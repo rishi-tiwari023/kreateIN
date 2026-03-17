@@ -1,5 +1,9 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
+import { assets } from '../assets/assets';
+
 const Hero=()=>{
+    const navigate = useNavigate();
     return (
         <div className="px-4 sm:px-20 xl:px-32 relative inline-flex flex-col w-full justify-center bg-[url(/gradientBackground.png)] bg-cover bg-no-repeat min-h-screen">
             <div className="text-center mb-6">
@@ -12,7 +16,7 @@ const Hero=()=>{
                 <button className="px-6 py-3 bg-white text-primary rounded-full">Watch Demo</button>
             </div>
             <div className='flex items-center gap-4 mt-8 mx-auto text-gray-600'>
-                <img src={assets.user_group} alt="" className='h-8'/> Trusted by 10k+ people
+                <img src={assets.user_group} alt="" className='h-8'/> Trusted by a lot of people
             </div>
         </div>
     )

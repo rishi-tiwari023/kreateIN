@@ -1,27 +1,30 @@
+// import { div } from 'framer-motion/client';
+import avatar from '../assets/avatar.png';
+
 const Testimonial = () => {
     const cardsData = [
         {
-            image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200',
-            name: 'Briar Martin',
-            handle: '@neilstellar',
+            image: avatar,
+            name: 'Atharva Tiwari',
+            handle: '@atharvatweets',
             date: 'April 20, 2025'
         },
         {
-            image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
+            image: avatar,
+            name: 'Shriya Gupta',
+            handle: '@shriyadesigns',
             date: 'May 10, 2025'
         },
         {
-            image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200&auto=format&fit=crop&q=60',
-            name: 'Jordan Lee',
-            handle: '@jordantalks',
+            image: avatar,
+            name: 'Abhay Shukla',
+            handle: '@abhayspeaks',
             date: 'June 5, 2025'
         },
         {
-            image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
+            image: avatar,
+            name: 'Tanishka Singh',
+            handle: '@tanishkawrites',
             date: 'May 10, 2025'
         },
     ];
@@ -40,8 +43,7 @@ const Testimonial = () => {
                     <span className="text-xs text-slate-500">{card.handle}</span>
                 </div>
             </div>
-            <p className="text-sm py-4 text-gray-800">Radiant made undercutting all of our competitors an absolute
-                breeze.</p>
+            <p className="text-sm py-4 text-gray-800">KreateIN has transformed the way we work, making our processes incredibly smooth and efficient!</p>
             <div className="flex items-center justify-between text-slate-500 text-xs">
                 <div className="flex items-center gap-1">
                     <span>Posted on</span>
@@ -72,8 +74,12 @@ const Testimonial = () => {
                 animation-direction: reverse;
             }
         `}</style>
-
-            <div className="marquee-row w-full mx-auto max-w-5xl overflow-hidden relative">
+            <div className='text-center'>
+                <h2 className='text-slate-700 text-[42px] font-semibold'> Loved by Creators</h2>
+                <p className='text-gray-500 max-2-lg- mx-auto'> Don't just take our word for it. Here's what our users are saying</p>
+            </div>
+            {/* Reverse marquee for the second row to create a dynamic effect */}
+            {/* <div className="marquee-row w-full mx-auto max-w-5xl overflow-hidden relative">
                 <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-white to-transparent"></div>
                 <div className="marquee-inner flex transform-gpu min-w-[200%] pt-10 pb-5">
                     {[...cardsData, ...cardsData].map((card, index) => (
@@ -81,7 +87,7 @@ const Testimonial = () => {
                     ))}
                 </div>
                 <div className="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l from-white to-transparent"></div>
-            </div>
+            </div> */}
 
             <div className="marquee-row w-full mx-auto max-w-5xl overflow-hidden relative">
                 <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-white to-transparent"></div>

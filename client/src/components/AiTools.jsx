@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiToolsData } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
+import { useUser } from '@clerk/clerk-react'
 
 const AiTools = () => {
     const navigate=useNavigate();
