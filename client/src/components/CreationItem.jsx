@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import ReactMarkdown from 'react-markdown'
+import Markdown from 'react-markdown'
 
 const CreationItem = ({ item }) => {
 
@@ -29,8 +29,8 @@ const CreationItem = ({ item }) => {
                 ) : (
                     <div className='mt-3 h-full overflow-y-scroll text-sm
                     text-slate-700'>
-                        <div>
-                            {item.content}
+                        <div className='reset-tw'>
+                            <Markdown>{item.content}</Markdown>
                         </div>
                     </div>
                 )}
