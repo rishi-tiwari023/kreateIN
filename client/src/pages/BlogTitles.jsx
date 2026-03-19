@@ -1,4 +1,4 @@
-import { Edit, Hash, Sparkles } from 'lucide-react'
+import {Hash, Sparkles } from 'lucide-react'
 import React from 'react'
 import { useState } from 'react'
 
@@ -19,7 +19,7 @@ const BlogTitles = () => {
           <Sparkles className='w-6 text-[#8E37EB]' />
           <h1 className='text-xl font-semibold'>AI Title Generator</h1>
         </div>
-        <p>Keyword</p>
+        <p className='text-xl font-semibold'>Keyword</p>
         <input onChange={(e) => setInput(e.target.value)} value={input} type="text" className='w-full p-2 px-3 mt-2 outline-none text-sm
         rounded-md border border-gray-300' placeholder='Artificial Intelligence, Machine Learning, Travel, USA, LPG, etc..... '
           required />
