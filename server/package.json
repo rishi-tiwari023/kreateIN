@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  
   "scripts": {
     "server": "nodemon server.js",
     "start": "node server.js"
@@ -13,6 +12,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@clerk/express": "^2.0.6",
+    "@neondatabase/serverless": "^1.0.2",
     "axios": "^1.13.6",
     "cloudinary": "^2.9.0",
     "cors": "^2.8.6",
