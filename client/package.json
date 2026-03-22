@@ -13,10 +13,12 @@
     "@clerk/clerk-react": "^5.61.3",
     "@clerk/react": "^6.1.0",
     "@tailwindcss/vite": "^4.2.1",
+    "axios": "^1.13.6",
     "clerk": "^0.8.3",
     "lucide-react": "^0.577.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-hot-toast": "^2.6.0",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^7.13.1",
     "tailwindcss": "^4.2.1"
